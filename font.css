@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'fontello';
+  font-family: 'FontAwesome';
   src: url('http://www.alm6wer.com/vb/alm6wer2015/font/fontello.eot?31976532');
   src: url('http://www.alm6wer.com/vb/alm6wer2015/font/fontello.eot?31976532#iefix') format('embedded-opentype'),
        url('http://www.alm6wer.com/vb/alm6wer2015/font/fontello.woff?31976532') format('woff'),
@@ -19,10 +19,10 @@
 }
 */
  
+    font: normal normal normal 14px/1 FontAwesome;
+
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
-  font-style: normal;
-  font-weight: normal;
+font: normal normal normal 14px/1 FontAwesome;
   speak: none;
  
   display: inline-block;
