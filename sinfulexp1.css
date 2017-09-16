@@ -1,0 +1,552 @@
+/*-----------------------------------------------------------------------------------*\
+	          DigitalvB.com - Style Sheet by Sam S. (Attitude)
+            All rights reserved with DigitalvB.com @ http://digitalvb.com    
+=======================================================================================
+                                TABLE OF CONTENTS
+=======================================================================================
+
+1. WRAPPER & LAYOUT
+2. HEADER & NAVIGATION
+3. FORUMHOME
+4. QUICK CUSTOM CLASSES
+5. FOOTER
+6. THREADBIT & POSTBIT
+7. LOGIN PANEL CSS
+8. CLEAN-UP, BUG FIXES & SMALL MODIFICATIONS
+
+
+\*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*\
+	           DigitalvB.com - Style Sheet by Sam S. (Attitude)    
+                            1. Wrapper & Layout                
+\*-----------------------------------------------------------------------------------*/
+
+#dvb-main-wrapper {
+	width:70%;
+	min-width:650px;
+	max-width:auto;
+	margin: -4px auto 0px auto;
+}
+
+#val-topbar {
+	min-height:221px;
+	background:#252525 url(digitalvb/valerie/misc/gradientbar7animated.gif);
+	border-top:4px solid rgba(0, 116, 193, 0);
+	position: relative;
+	z-index: 100;
+}
+
+.custom-wrapper {
+  	width:70%;
+	min-width:650px;
+	max-width:auto;
+	margin: 0px auto 0px auto;
+        position:relative;
+}
+
+.dvb_forumbit_wrapper, .dvb_postbit_wrapper {
+	//background:#FFFFFF;
+	margin-bottom: 10px;
+	padding: 8px 10px 8px 8px;
+	//-moz-box-shadow:1px 1px 2px #d0d0d0;
+	//-webkit-box-shadow:1px 1px 2px #d0d0d0;
+	//box-shadow:1px 1px 2px #d0d0d0;
+}
+
+/*-----------------------------------------------------------------------------------*\
+	           DigitalvB.com - Style Sheet by Sam S. (Attitude)    
+                                2. Header & Navigation                   
+\*-----------------------------------------------------------------------------------*/
+
+.toplinks { min-height:28px; }
+
+.navtabs li.selected > ul, .globalsearch {
+	background:url(http://sinfulexp.net/forum/digitalvb/valerie/valerie_base/secondary-bg.png);
+	padding:2px 10px;
+	border-top:1px solid #464646;
+	-moz-box-shadow:inset 0px 0px 12px #222;
+	-webkit-box-shadow:inset 0px 0px 12px #222;
+	box-shadow:inset 0px 0px 12px #222;
+}
+
+.globalsearch { 
+padding:6px 10px!important; 
+right:0px;
+}
+
+/*-----------------------------------------------------------------------------------*\
+	           DigitalvB.com - Style Sheet by Sam S. (Attitude)    
+                                   3. Forumhome                   
+\*-----------------------------------------------------------------------------------*/
+
+.forumhead, .threadlisthead { padding:4px 0; }
+
+div.L2 { border:0; }
+
+.forumbit_post {
+	margin-bottom:2px;
+	border-bottom:1px solid rgba(216, 216, 216, 0);
+	border-right:1px solid #d8d8d8;
+}
+
+.forumbit_nopost .forumbit_nopost .forumrow, .forumbit_post .forumrow {
+	padding:4px 0;
+	margin-bottom:2px;
+}
+
+.wgo_block .blockhead { padding:8px 10px; }
+
+.wgo_subblock h3 {
+	width:36px;
+	height:36px;
+	float:left;
+}
+
+.wgo_subblock .wgo_new_blk1 {
+	margin-left:62px;
+	min-height:36px;
+padding: 5px 10px 10px 10px;
+}
+
+.wgo_subblock .wgo_userlist_blk {
+	float:right;
+	width:100%;
+}
+
+.wgo_subblock .wgo_infolist_blk {
+	float:left;
+	width:45%;
+}
+
+.wgo_subblock { overflow:auto; }
+
+.wgo_subblock dl.icon_legends {
+	margin-top:12px;
+	position:absolute;
+}
+
+.wgo_subblock dl.icon_legends img { margin-top:-4px; }
+
+.wgo_block .blocksubhead { 
+border:0; 
+padding-top: 10px;
+}
+
+.wgo_block .section {
+	border-bottom:1px solid rgba(227, 227, 227, 0);
+	min-height: 50px;
+padding: 10px 10px 10px 10px;
+}
+
+.wgo_block .blockbody { border-bottom:0 }
+
+.wgo_block .section dl.icon_legends dd { float:left; }
+
+/*-----------------------------------------------------------------------------------*\
+	           DigitalvB.com - Style Sheet by Sam S. (Attitude)    
+                                   4. Quick Custom Classes                   
+\*-----------------------------------------------------------------------------------*/
+
+.dvbtextbox {
+	background:#9d9d9d;
+	border:1px solid #303030;
+	-moz-box-shadow:inset 0px 0px 4px #525252, 0px 1px 0px #646464;
+	-webkit-box-shadow:inset 0px 0px 4px #525252, 0px 1px 0px #646464;
+	box-shadow:inset 0px 0px 4px #525252, 0px 1px 0px #646464;
+	padding:6px!important;
+}
+
+.dark-shadow {
+	-moz-box-shadow:0px 0px 5px #0c0c0c;
+	-webkit-box-shadow:0px 0px 5px #0c0c0c;
+	box-shadow:0px 0px 5px #0c0c0c;
+}
+
+.soft-shadow {
+	-moz-box-shadow:0px 0px 5px #9b9b9b;
+	-webkit-box-shadow:0px 0px 5px #9b9b9b;
+	box-shadow:0px 0px 10px #9b9b9b;
+}
+
+.softer-shadow {
+	-moz-box-shadow:0px 1px 3px #9b9b9b;
+	-webkit-box-shadow:0px 1px 3px #9b9b9b;
+	box-shadow:0px 1px 3px #9b9b9b;
+}
+
+.round-it {
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+
+.bottom-round {
+	-moz-border-radius:0px 0px 4px 4px;
+	-webkit-border-radius:0px 0px 4px 4px;
+	border-radius:0px 0px 4px 4px;
+}
+
+.top-round {
+	-moz-border-radius:3px 3px 0px 0px;
+	-webkit-border-radius:3px 3px 0px 0px;
+	border-radius:3px 3px 0px 0px;
+}
+
+.dvbbtn1 {
+	font-size: 12px;
+	font-weight:bold;
+	cursor:pointer;
+	color: #606060;
+	padding: 5px 8px;
+	background: -moz-linear-gradient(  top,  #ededed 0%,  #e9e9e9);
+	background: -webkit-gradient(  linear, left top, left bottom,  from(#ededed),  to(#e9e9e9));
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #6b6b6b;
+	-moz-box-shadow:
+ 0px 1px 1px rgba(000,000,000,0.1),  inset 0px 1px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+ 0px 1px 1px rgba(000,000,000,0.1),  inset 0px 1px 1px rgba(255,255,255,1);
+	text-shadow:
+ 0px 1px 1px rgba(255,255,255,1),  0px 1px 0px rgba(255,255,255,1);
+}
+
+.posthread_btn {
+	border-top: 1px solid #d41515;
+	background: #990000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#b50000), to(#990000));
+	background: -webkit-linear-gradient(top, #b50000, #990000);
+	background: -moz-linear-gradient(top, #b50000, #990000);
+	background: -ms-linear-gradient(top, #b50000, #990000);
+	background: -o-linear-gradient(top, #b50000, #990000);
+	padding: 5.5px 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #ffffff;
+	font-size: 15px;
+	font-family: Helvetica, Arial, Sans-Serif;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.posthread_btn:hover {
+	border-top-color: #b50000;
+	background: #b50000;
+	color: #ffffff;
+	text-decoration:none;
+}
+
+.posthread_btn:active {
+	border-top-color: #690000;
+	background: #690000;
+}
+
+strong { font-weight:700; }
+
+/*-----------------------------------------------------------------------------------*\
+	           DigitalvB.com - Style Sheet by Sam S. (Attitude)    
+                                      5. Footer                  
+\*-----------------------------------------------------------------------------------*/
+
+.footer_links_new {
+	background: #f3f3f3;
+	border-bottom: 1px solid #dbdbdb;
+	border-top: 1px solid #FFFFFF;
+	padding: 6px 22px;
+}
+
+.footer_label {
+	font: 11px arial;
+	margin-right: 2px;
+	text-transform: uppercase;
+	margin-left:0!important;
+}
+
+.footer_aligner { padding-left:22px; }
+
+#dvb_footer {
+	background: none repeat scroll 0 0 rgba(249, 249, 249, 0);
+	border: 1px none #DBDBDB;
+	-moz-box-shadow:0px 3px 3px #9b9b9b;
+	-webkit-box-shadow:0px 1px 3px #9b9b9b;
+	box-shadow:0px 1px 3px rgba(249, 249, 249, 0);
+	min-height: 12px;
+        padding-top: 10px
+	border-top:0;
+}
+
+.vb-copyright {
+	margin:22px;
+	border-top:1px solid #1c1c1c;
+	border-bottom:1px solid #1c1c1c;
+	padding:10px 0;
+	font:11px arial;
+	word-spacing:0.05em;
+}
+
+.stress {
+	color:#b2181d;
+	text-decoration:underline;
+	font:bold 14px Arial, sans-serif;
+}
+
+.dvb_copyright { margin: 10px 0; }
+
+/*-----------------------------------------------------------------------------------*\
+	           DigitalvB.com - Style Sheet by Sam S. (Attitude)    
+                               6. Threadbit & Postbit                  
+\*-----------------------------------------------------------------------------------*/
+
+.postbitlegacy .userinfo .username_container {
+	background:#F5F5F5;
+	border-bottom: 1px solid #E7E7E7;
+	padding: 8px;
+	text-align: center;
+}
+
+.dvb-postbit-uinfo { text-align:center; }
+
+.postbitlegacy .userinfo .postuseravatar img, .eventbit .userinfo .eventuseravatar img {
+	border:2px none #fff;
+	-moz-box-shadow:1px 1px 2px #d0d0d0;
+	-webkit-box-shadow:1px 1px 2px #d0d0d0;
+	box-shadow:1px 1px 2px rgba(208, 208, 208, 0);
+}
+
+.postbitlegacy dl.userinfo_extra dd, .postbitlegacy dl.user_rep dd {
+	border: 1px solid #E2E2E2;
+	margin-bottom: 2px;
+	padding-top:4px;
+}
+
+.postbitlegacy .userinfo .userinfo_extra {  }
+
+.postbitlegacy dl.userinfo_extra dt, .postbitlegacy dl.user_rep dt {
+	padding-left: 8px;
+	padding-top: 5px;
+}
+
+.postbit .postfoot, .postbitlegacy .postfoot, .eventbit .eventfoot { border-top:1px solid #dfdfdf; }
+
+/*-----------------------------------------------------------------------------------*\
+	           DigitalvB.com - Style Sheet by Sam S. (Attitude)    
+                            7. Login Panel CSS              
+\*-----------------------------------------------------------------------------------*/
+
+.clear {
+	clear: both;
+	height: 0;
+	line-height: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+.clearfix { height: 1%; }
+
+.clearfix { display: block; }
+
+.tab {
+  	width:960px;
+	min-width:650px;
+	max-width:auto;
+	margin: 0px auto 0px auto;
+        position:relative;
+	height: 34px;
+        top: 0;
+        z-index: 999;
+}
+
+.tab ul.login {
+	display: block;
+	position: relative;
+	float: right;
+	clear: right;
+	height: 34px;
+	width: auto;
+	font-weight: bold;
+	line-height: 36px;
+	margin: 0;
+	font-size:12px;
+	right: 20px;
+	color: white;
+	text-align: center;
+}
+
+.tab ul.login li {
+	text-align: left;
+	padding: 0 10px;
+	display: block;
+	float: left;
+	height: 34px;
+	background: rgba(0, 153, 255, 0);
+	cursor:pointer;
+}
+
+.tab ul.login li a { color: white; }
+
+.tab ul.login li a:hover { color: #0099FF; }
+
+.tab a.open, .tab a.close {
+	height: 20px;
+	line-height: 20px !important;
+	padding-left: 30px !important;
+	cursor: pointer;
+	display: block;
+	width: 100px;
+	position: relative;
+	top: 11px;
+}
+
+#toppanel {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#panel {
+	width: 100%;
+	height: 230px;
+	color: #fff;
+	background: #0099FF;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	display: none;
+}
+
+#panel h1 {
+	font-size: 1.6em;
+	padding: 5px 0 10px;
+	margin: 0;
+	color: white;
+}
+
+#panel h2 {
+	font-size: 1.2em;
+	padding: 10px 0 5px;
+	margin: 0;
+	color: white;
+}
+
+#panel p {
+	margin: 5px 0;
+	padding: 0;
+}
+
+#panel a {
+	text-decoration: none;
+	color: #fabf61;
+}
+
+#panel a:hover { color:#eb9102; }
+
+#panel a-lost-pwd {
+	display: block;
+	float: left;
+}
+
+#panel .content {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: left;
+	font-size: 0.85em;
+}
+
+#panel .content .left {
+	width: 280px;
+	float: left;
+	padding: 0 15px;
+	border-left: 1px solid #0099FF;
+}
+
+#panel .content .right { border-right: 1px solid #0099FF; }
+
+#panel .content form { margin: 0 0 10px 0; }
+
+#panel .content label {
+	float: left;
+	padding-top: 8px;
+	clear: both;
+	width: 280px;
+	display: block;
+}
+
+#panel .content input.field {
+	border: 1px #1A1A1A solid;
+	background: #414141;
+	margin-right: 5px;
+	margin-top: 4px;
+	width: 200px;
+	color: white;
+	height: 16px;
+}
+
+#panel .content input:focus.field { background: #545454; }
+
+#panel .content input.bt_login, #panel .content input.bt_register {
+	display: block;
+	float: left;
+	clear: left;
+	height: 24px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+#panel .lost-pwd {
+	display: block;
+	float:left;
+	clear: right;
+	padding: 15px 5px 0;
+	font-size: 0.95em;
+	text-decoration: underline;
+}
+
+/*-----------------------------------------------------------------------------------*\
+	           DigitalvB.com - Style Sheet by Sam S. (Attitude)    
+                            8. Cleanup, Bugs & Small Fixes                 
+\*-----------------------------------------------------------------------------------*/
+
+
+.btn_submit {
+	margin-top:8px;
+	width:213px;
+}
+
+li.extra_big {
+	font-size:18px;
+	font-weight:bold;
+}
+
+.breadcrumb {
+	background:#fafafa;
+	border:1px solid #d4d4d4;
+	margin: 8px 0 8px;
+	padding: 4px 10px;
+}
