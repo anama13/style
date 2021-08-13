@@ -1,0 +1,468 @@
+1body
+{
+       background:#ededed;
+        color: #000000;
+        font:bold 10pt tahoma;
+        margin: 0px;
+        padding: 0px;
+}
+a:link, body_alink
+{
+        color: #000;
+        text-decoration:none;
+}
+a:visited, body_avisited
+{
+        color: #000;
+        text-decoration:none;
+}
+a:hover, a:active, body_ahover
+{
+        color: #FF4400;
+        text-decoration:none;
+}
+.page
+{
+       background:#ededed;
+        color: #000000;
+}
+td, th, p, li
+{
+        font: 9pt tahoma;
+}
+.tborder
+{
+        background:none;
+        color: #000000;
+        border: 0px solid #0B198C;
+}
+.tcat
+{
+        background:#b2b2b2 url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/repeat/7.jpg) repeat-x top right;
+        color: #fff;
+        font:bold 10pt tahoma;
+}
+.tcat a:link, .tcat_alink
+{
+        color: #fff;
+        text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+        color: #fff;
+        text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+        color: #f7f7f7;
+        text-decoration: none;
+}
+.thead
+{
+        background:#000;
+        color: #FFFFFF;
+        font:bold 11px tahoma;
+}
+.thead a:link, .thead_alink
+{
+        color: #FFFFFF;
+}
+.thead a:visited, .thead_avisited
+{
+        color: #FFFFFF;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+        color: #FFFF00;
+}
+.tfoot
+{
+        background:#000;
+        color: #fff;
+}
+.tfoot a:link, .tfoot_alink
+{
+        color: #fff;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+        color: #E0E0F6;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+        color: #FFFF66;
+}
+.alt1, .alt1Active
+{
+        background:#e8e8e8 url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/repeat/8.jpg) repeat-x top right;
+        color: #000000;
+}
+.alt2, .alt2Active
+{
+        background:#e8e8e8 url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/repeat/8.jpg) repeat-x top right;
+        color: #000000;
+}
+.inlinemod
+{
+        background: #FFFFCC;
+        color: #000000;
+}
+.wysiwyg
+{
+        background: #fff;
+        color: #000000;
+        font:bold 10pt tahoma;
+        margin: 5px 10px 10px 10px;
+        padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+        color: #22229C;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+        color: #22229C;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+        color: #FF4400;
+}
+textarea, .bginput
+{
+        font:bold 10pt tahoma;
+}
+.bginput option, .bginput optgroup
+{
+        font-size: 10pt;
+        font-weight:bold;
+        font-family: tahoma;
+}
+.button
+{
+        font:bold 11px tahoma;
+}
+select
+{
+        font:bold 11px tahoma;
+}
+option, optgroup
+{
+        font-size: 11px;
+        font-family: tahoma;
+}
+.smallfont
+{
+        font: 11px tahoma;
+}
+.time
+{
+        color: #666686;
+}
+.navbar
+{
+        font: 11px tahoma;
+}
+.highlight
+{
+        color: #FF0000;
+        font-weight: bold;
+}
+.fjsel
+{
+        background: #3E5C92;
+        color: #E0E0F6;
+}
+.fjdpth0
+{
+        background: #F7F7F7;
+        color: #000000;
+}
+.panel
+{
+        background: #e8e8e8 url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/repeat/8.jpg) repeat-x top right;
+        color: #000000;
+        padding: 10px;
+        border: 0px outset;
+}
+.panelsurround
+{
+        background: #e8e8e8 url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/repeat/8.jpg) repeat-x top right;
+        color: #000000;
+}
+legend
+{
+        color: #22229C;
+        font: 11px tahoma, tahoma;
+}
+.vbmenu_control
+{
+        background:#000;
+        color: #FFFFFF;
+        font: bold 11px tahoma;
+        padding: 5px 6px 5px 6px;
+        white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+        color: #FFFFFF;
+        text-decoration: underline;
+}
+.vbmenu_popup
+{
+        background: #FFFFFF;
+        color: #000000;
+        border: 0px solid #0B198C;
+}
+.vbmenu_option
+{
+        background:#b2b2b2 url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/repeat/1.jpg) repeat-x;
+        color: #000000;
+        font:bold 11px tahoma;
+        white-space: nowrap;
+        cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+        color: #000;
+        text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+        color: #000;
+        text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.vbmenu_hilite
+{
+        background: #000;
+        color: #FFFFFF;
+        font:bold 11px tahoma;
+        white-space: nowrap;
+        cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+        color: #FFFFFF;
+        text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+ 
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+ 
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+ 
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+ 
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+/*===========================================Main Style Begain From Here CDLARAB BY STBLACK=========================================*/
+/*******************************************************************
+*            MAIN STYLE CDLARAB BY STBLACK
+*******************************************************************/
+/* 
+        Template Name: CDLARAB 2012
+        Theme URI: http://www.cdlarab.com
+        Description: Designed by <a href="http://www.stblack.com">Ahmed Zake - AmrAbdelaziz</a> 
+        Version: 1.0
+        Author:Amr Abdelaziz
+*/
+/*******************************************************************
+* 1-         RESSET CSS BY ME AMR ABDELAZIZ
+*******************************************************************/
+img, p, b, a, li, ul, h1, h2, h3, h4, h5, h6, span, a:hover, a:active, a:focus { border:0; padding:0; margin:0; outline:none; outline-style:none; font:bold 11px tahoma; }
+a { margin:0; padding:0; }
+/*******************************************************************
+*            HEADER
+*******************************************************************/
+#repeat-header { background:url(https://i96.servimg.com/u/f96/18/97/54/20/repeat10.jpg) repeat-x; height:592px; width:auto; clear:both; }
+#header { background:url(https://i96.servimg.com/u/f96/18/97/54/20/header11.jpg) no-repeat top center; height:592px; width:947px; margin:0px auto; position:relative; }
+.link-logo { display:block; width:333px; height:113px; position:absolute;  top:175px; right:95px; }
+/*******************************************************************
+* 1-         NAVIGATION
+*******************************************************************/
+.navigation { width:848px; height:54px;  position:absolute; top:50px; right:41px;  }
+.navigation a { width:40px; height:33px; margin:7px 5px 13px 5px; float:right; }
+.navigation .nav { width:795px; height:54px;; float:left; }
+.navigation .nav ul { margin-top:7px; }
+.navigation .nav ul li { display:block; width:102px; height:43px; list-style-type:none; float:right; margin-left:10px; }
+.navigation .nav ul li a { display:block; width:102px; height:43px; background:url(https://i96.servimg.com/u/f96/18/97/54/20/button10.png) no-repeat top; margin:0; text-align:center; color:#614906; text-shadow:0px 1px 1px #f9d478; font:bold 12px tahoma; line-height:33px; text-decoration:none;  }
+.navigation .nav ul li a:hover { background:url(https://i96.servimg.com/u/f96/18/97/54/20/button10.png) no-repeat bottom; color:#ffcece; text-shadow:0px 1px 1px #5e1313; }
+.navigation .nav ul li a.active { background:url(https://i96.servimg.com/u/f96/18/97/54/20/button10.png) no-repeat bottom; color:#ffcece; text-shadow:0px 1px 1px #5e1313; }
+/*******************************************************************
+* 2-         CHANGESTYLE
+*******************************************************************/
+.changestyle { display:block; width:134px; height:30px; position:relative; position:absolute; top:350px; right:283px; }
+.changestyle a.choosered { display:block; width:30px; height:30px; float:right; }
+.changestyle a.chooseblue { display:block; width:30px; height:30px; float:right; margin-right:4px; }
+.changestyle a.choosegray { display:block; width:30px; height:30px; float:right; margin-right:4px; }
+.changestyle a.choosegreen { display:block; width:30px; height:30px; float:right; margin-right:4px; }
+/*******************************************************************
+*      3.      LOGIN BOX
+*******************************************************************/
+.loginbox { width:300px; height:87px; position:relative; position:absolute; top:196px; left:90px; }
+.loginbox .husername { display:block; width:215px; height:25px; background:#d89205; float:right; margin-left:86px; text-indent:7px; font:bold 12px tahoma; text-decoration:none; color:#614906; line-height:25px; border-bottom:3px solid #98690b; text-shadow:0px 1px 1px #f6cc79; }
+.loginbox .husername:hover { text-shadow:0px 1px 1px #5e1313; color:#ffcece; background:#a10f0f; border-bottom:3px solid #670b0b; }
+.loginbox .lastvisite { display:block; width:300px; height:25px; background:#d89205; float:right; text-indent:7px; font:bold 11px tahoma; text-decoration:none; color:#614906; line-height:25px; border-bottom:3px solid #98690b; text-shadow:0px 1px 1px #f6cc79; }
+.loginbox .lastvisite:hover { text-shadow:0px 1px 1px #5e1313; color:#ffcece; background:#a10f0f; border-bottom:3px solid #670b0b; }
+.loginbox .lastvisite span { color:#fff; text-shadow:0px 1px 1px #963c3c; }
+.loginbox #notifications { display:block; width:300px; height:25px; background:#d89205; float:right; text-indent:7px; font:bold 11px tahoma; text-decoration:none; color:#614906; line-height:25px; border-bottom:3px solid #98690b; text-shadow:0px 1px 1px #f6cc79; text-decoration:none; } 
+.loginbox #notifications:hover { text-shadow:0px 1px 1px #5e1313; color:#ffcece; background:#a10f0f; border-bottom:3px solid #670b0b; }
+.loginbox .noti, .loginbox strong, #notifications a  { color:#fff; text-shadow:0px 1px 1px #000; text-decoration:none; }
+.loginbox .noti, .loginbox strong, #notifications a:hover { text-shadow:0px 1px 1px #5e1313; color:#ffcece; background:#a10f0f; border-bottom:3px solid #670b0b; }
+.loginbox .rasael { display:block; width:300px; height:25px; background:#d89205; float:right; text-indent:7px; font:bold 11px tahoma; text-decoration:none; color:#614906; line-height:25px; border-bottom:3px solid #98690b; text-shadow:0px 1px 1px #f6cc79; text-decoration:none; } 
+.loginbox .pmbox { display:block; width:300px; height:25px; background:#d89205; float:right; text-indent:7px; font:bold 11px tahoma; text-decoration:none; color:#614906; line-height:25px; border-bottom:3px solid #98690b; text-shadow:0px 1px 1px #f6cc79; text-decoration:none; } 
+.loginbox .pmbox:hover { text-shadow:0px 1px 1px #5e1313; color:#ffcece; background:#a10f0f; border-bottom:3px solid #670b0b; }
+.loginbox .hiddenuser { display:block; width:300px; height:25px; background:#d89205; float:right; text-indent:7px; font:bold 11px tahoma; text-decoration:none; color:#614906; line-height:25px; border-bottom:3px solid #98690b; text-shadow:0px 1px 1px #f6cc79; text-decoration:none; } 
+.loginbox .hiddenuser:hover   { text-shadow:0px 1px 1px #5e1313; color:#ffcece; background:#a10f0f; border-bottom:3px solid #670b0b; }
+.loginbox .hiddenuser a { font:bold 11px tahoma; text-decoration:none; color:#614906; }
+.loginbox .hiddenuser a:hover { text-shadow:0px 1px 1px #5e1313; color:#ffcece;  }
+/*******************************************************************
+* 4-         LOGIN FORM
+*******************************************************************/
+.loginform { background:url(https://i96.servimg.com/u/f96/18/97/54/20/loginf10.png) no-repeat; width:300; height:87px; position:relative; }
+.loginform .username { display:block; width:131px; height:20px; position:absolute; background:none; border:none; top:5px; right:42px; font:bold 12px tahoma; color:#fff; line-height:20px; }
+.loginform .password { display:block; width:131px; height:20px; position:absolute; background:none; border:none; top:42px; right:42px; font:bold 12px tahoma; color:#fff; line-height:20px; }
+.loginform .username:focus, .loginform .password:focus { outline:none; outline-style:none; }
+.loginform .checkk { position:absolute; right:217px; top:15px; }
+.loginform .sign-button { width:80px; height:30px; position:absolute; left:12px; top:38px; }
+/*******************************************************************
+* 5-         SEARCH BOX
+*******************************************************************/
+.searchbox { width:280px; height:43px; position:relative; position:absolute; top:300px; left:79px; }
+.searchbox .text { width:202px; height:20px; background:none; border:none; font:bold 12px tahoma; color:#fff; margin-top:10px; line-height:20px; float:right; }
+.searchbox .text:focus { outline:none; outline-style:none; }
+.searchbox .submit { float:left; width:75px; height:42px; }
+/*******************************************************************
+* 1-         BANNERS
+*******************************************************************/
+.banners { width:947px; height:153px; position:absolute; top:425px; }
+.banners .banner { width:205px; height:153px; float:right; margin-right:26px; }
+.banner a { display:block; widt:205px; background:#f1f1f1; padding:5px; }
+.banner h3 { width:200px; height:22px; background:#c6c6c6; border:2px solid #f1f1f1; margin-top:5px; font:bold 11px tahoma; text-align:center; line-height:20px; color:#666666; text-shadow:0px 1px 1px #e7e7e7; }
+/*******************************************************************
+*            FOOTER
+*******************************************************************/
+#footerbg { background:url(https://i96.servimg.com/u/f96/18/97/54/20/footer10.jpg) repeat-x; height:325px; width:auto; clear:both; }
+.footer { width:947px; height:325px; margin:0px auto; position:relative; }
+.menu { width:517px; height:117px; position:absolute; top:74px; right:0px; }
+.menu div { width:125px; height:117px; margin-left:0px; float:right; }
+.menu div ul {  }
+.menu div ul li { list-style:none; margin-top:5px; width:120px; height:25px; line-height:25px; text-align:center; }
+.menu div ul li:hover {  background:url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/color-red/repeat/1.jpg) repeat-x; }
+.menu div ul li a { display:block; font:bold 11px tahoma; color:#fff; line-height:25px; text-decoration:none;  }
+/*******************************************************************
+* 1-         FNOTI
+*******************************************************************/
+.fnoti { width:468px; height:43px; position:absolute; top:197px; right:0px; }
+.fnoti .icon { background:url(https://i96.servimg.com/u/f96/18/97/54/20/feed-i10.png) no-repeat; width:24px; height:23px; float:right; margin-top:10px; }
+.fnoti .text { width:428px; height:43px; background:url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/color-red/repeat/2.png) repeat-x; float:left; }
+.fnoti .text p { font:bold 13px tahoma; color:#000; text-shadow:0px 2px 2px #e7ad08; line-height:43px; text-align:center; }
+/*******************************************************************
+* 2-         FEED
+*******************************************************************/
+.feed { background:url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/feed-icon.png) no-repeat; width:388px; height:49px; position:relative; position:absolute; left:12px; top:0px; }
+.feed .facebook { display:bolck; width:38px; height:38px; position:absolute; left:0px; top:2px;  }
+.feed .twitter { display:bolck; width:38px; height:38px; position:absolute; left:50px; top:2px;  }
+.feed .youtube { display:bolck; width:38px; height:38px; position:absolute; left:100px; top:2px;  }
+/*******************************************************************
+* 3-         FLOGO
+*******************************************************************/
+.flogo { background:url(https://i96.servimg.com/u/f96/18/97/54/20/flogo10.png) no-repeat; width:347px; height:124px; position:absolute; top:94px; left:18px; }
+/*******************************************************************
+* 4-         FNOTI
+*******************************************************************/
+.copyright { background:url(https://i96.servimg.com/u/f96/18/97/54/20/copyri10.png) no-repeat; width:936px; height:58px; position:absolute; bottom:13px; left:3px; }
+.copyright .stblack { width:290px; height:58px; float:left; margin-left:40px; }
+/*******************************************************************
+*            FORUMHOME
+*******************************************************************/
+.forumhome-st { width:944px; height:auto; clear:both; }
+.forum-top { background:url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/color-red/forum/top.jpg) no-repeat; height:114px; width:944px; }
+.forum-center { background:url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/color-red/forum/repeat.jpg) repeat-y; width:944px; }
+.forum-bottom { background:url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/color-red/forum/bottom.jpg) no-repeat; height:144px; width:944px; }
+.forum-content { width:934px; height:auto; margin:0px 5px; }
+/*******************************************************************
+*            POSTBIT
+*******************************************************************/
+.infouser {    font: normal 11px "Tahoma";        color: #000; background:#ededed; letter-spacing: 0px; vertical-align: middle; padding: 1px 4px; border:2px solid #f3f3f3; margin: 0px 0px 2px; _margin: 0px 0px 0px; }
+.avataruser img { border:1px dotted #6A581C; margin: 10px auto 0; padding: 5px; }
+/*******************************************************************
+*            MASSAGE GHOST
+*******************************************************************/
+.ghostw { background:url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/repeat/4.jpg) repeat-x; height:40px; width:850px; margin:auto; margin-bottom:20px; margin-top:10px; text-align:center; color:#fff; font:bold 14px tahoma; line-height:40px;
+-moz-border-radius-topright:30px; -moz-border-radius-bottomleft:30px; -moz-border-radius-bottomright:30px;
+-webkit-border-radius-topright:30px; -webkit-border-radius-bottomleft:30px; -webkit-border-radius-bottomright:30px;
+-o-border-radius-topright:30px; -o-border-radius-bottomleft:30px; -o-border-radius-bottomright:30px; 
+border-radius-topright:30px; border-radius-bottomleft:30px; border-radius-bottomright:30px;
+box-shadow: 0px 5px 5px #888; -moz-box-shadow: 0px 5px 5px #888; -webkit-box-shadow: 0px 5px 5px #888; -o-box-shadow: 0px 5px 5px #888; }
+.ghostw .ghostcon a { color:#f03030; font:bold 14px tahoma; line-height:40px; }
+.ghostw .ghostcon a:hover { color:#30eef0;  font:bold 15px tahoma; line-height:40px; }
+.ghostw:hover { background:url(/web/20121113103725im_/http://vb.stblack.com/cdlarab-style/images/repeat/2.jpg) repeat-x; height:40px; width:850px; margin:auto; margin-bottom:20px; margin-top:10px; text-align:center; color:#f49aad; font:bold 14px tahoma; line-height:40px; text-shadow:0px 2px 2px #b34d62; }
+.ghostw:hover a { color:#fff; }
+/*******************************************************************
+*            TITLE
+*******************************************************************/
+div#qTip { border:2px solid #000; background:#000; color:#fff; text-shadow:0px 1px 0px #906705; font:bold 10pt tahoma; position:absolute; z-index:1000; display:none; padding:4px;text-align:left;}
+/*******************************************************************
+*            END STYLE BY TEAM STBLACK.com
+*******************************************************************/
+ 
+ 
+ 
+ 
+ 
+ 
+/*
+     FILE ARCHIVED ON 10:37:25 Nov 13, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:31:31 Aug 08, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+ 
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.33
+  esindex: 0.024
+  RedisCDXSource: 3.356
+  PetaboxLoader3.resolve: 38.741
+  load_resource: 284.787
+  PetaboxLoader3.datanode: 2293.014 (4)
+  captures_list: 2106.104
+  CDXLines.iter: 30.594 (3)
+  LoadShardBlock: 2065.306 (3)
+  exclusion.robots.policy: 0.309
+*/
+ 
